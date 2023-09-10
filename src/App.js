@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/molecules/NavBar';
+import Footer from './components/molecules/Footer';
 
 function App() {
   return (
@@ -9,5 +10,13 @@ function App() {
     </div>
   );
 }
+const FApp = () => {
+  return (
+    <div className='App'>
+      
+      <Footer></Footer >
+    </div>
+  );
+};
 
 export default App;
