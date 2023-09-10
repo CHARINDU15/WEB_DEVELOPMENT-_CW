@@ -1,0 +1,11 @@
+/* Example usage in a CSS rule */
+.navbar {
+    padding-left: var(--your-prefix-navbar-padding-x);
+    padding-right: var(--your-prefix-navbar-padding-x);
+    padding-top: var(--your-prefix-navbar-padding-y);
+    padding-bottom: var(--your-prefix-navbar-padding-y);
+    background-color: var(--your-prefix-navbar-color);
+    color: var(--your-prefix-navbar-hover-color);
+    /* Add more styles using other custom properties */
+  }
+  
