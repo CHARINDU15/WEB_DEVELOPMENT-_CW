@@ -15,7 +15,6 @@ const FApp = () => {
   return (
     <div className='App'>
       
-      <Footer></Footer >
     </div>
   );
 };
