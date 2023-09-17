@@ -1,22 +1,33 @@
 import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/molecules/NavBar';
-import Footer from './components/molecules/Footer';
+
+
+import Footer from './components/molecules/footerbar';
+import { BrowserRouter } from 'react-router-dom';
+import Homepg from './pages/Home';
+
 
 function App() {
   return (
-    <div className="App">
-      <NavBar></NavBar>
-     
-    </div>
-  );
-}
-const FApp = () => {
-  return (
-    <div className='App'>
+    <>
+    
+      <BrowserRouter>
+      <NavBar/>
+      <main>
+      <Homepg />
+      </main>
+       <Footer/>
       
-    </div>
+
+       
+      </BrowserRouter>
+   
+      </>
+
   );
 };
 
+
 export default App;
+
