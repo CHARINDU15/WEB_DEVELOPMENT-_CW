@@ -10,12 +10,7 @@ const Footer = ()=>{
             <p>Address:123 Main Street,Galle Road</p>
            
         </div>
-        <div className="social-media">
-        <h3>Contact-Us</h3>
-        <a class="Footer-brand" href="#"><Image src="C:\Users\HP\Desktop\fb.png" alt="Facebook"width="30" height="15"/></a>
-        <a class="Footer-brand" href="#"><Image src="C:\Users\HP\Desktop\insta.jpeg" alt="Instagram"width="30" height="15"/></a>
-        <a class="Footer-brand" href="#"><Image src="C:\Users\HP\Desktop\wtdp.jpeg" alt="Whatsapp"width="30" height="15"/></a>
-      </div>
+       
 
       <div className="copyright">
         <p>&copy; © 2023 EVENTO All-in-One Event Management System. All Rights Reserved.</p>
@@ -58,14 +53,7 @@ const Footer = ()=>{
         <p>We are committed to making our events accessible to all. For inquiries, please contact <a href="mailto:accessibility@eventmanagementsystem.com">accessibility@eventmanagementsystem.com</a>.</p>
       </div>
 
-      <div className="partners">
-        <h3>Partners or Sponsors</h3>
-        <a class="Footer-brand" href="#"><Image src="C:\Users\HP\Desktop\wedd.png" alt="Partnership"width="30" height="15"/></a>
-        <a class="Footer-brand" href="#"><Image src="C:\Users\HP\Desktop\par.jpeg" alt="Partnership"width="30" height="15"/></a>
-        <a class="Footer-brand" href="#"><Image src="C:\Users\HP\Desktop\caterin.png" alt="Partnership"width="30" height="15"/></a>
-       
-      </div>
-
+      
       <div className="awards">
         <h3>Awards and Recognitions</h3>
         <p>Voted "Best Event Management Platform 2023" by Industry Experts.</p>
@@ -84,12 +72,7 @@ const Footer = ()=>{
         <p>Find answers to common questions in our <a href="/faqs">FAQ section</a>.</p>
       </div>
 
-      <div className="security-trust">
-        <h3>Security and Trust Seals</h3>
-        <a class="Footer-brand" href="#"><Image src="C:\Users\HP\Desktop\ssl.jpeg" alt="SSL Certificate"width="30" height="15"/></a>
-        <a class="Footer-brand" href="#"><Image src="C:\Users\HP\Desktop\pci.png" alt="PCI DSS Compliance"width="30" height="15"/></a>
-        <a class="Footer-brand" href="#"><Image src="C:\Users\HP\Desktop\g sfe b.png" alt="Google Safe Browsing"width="30" height="15"/></a>
-      </div>
+      
 
       <div className="language-selection">
         <h3>Language Selection</h3>
