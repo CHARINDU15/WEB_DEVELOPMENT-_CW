@@ -4,6 +4,13 @@ import '../Home/animate.css';
 import '../Home/bootstrap-4.3.1.css';
 import '../Home/style.css';
 import $ from 'jquery';
+import Pic1 from '../Home/download.jpeg';
+import Pic2 from '../Home/Weddings1.jpeg';
+import Pic3 from '../Home/Conferences.jpeg';
+import Pic4 from '../Home/Outdoor.jpg';
+
+
+
 
 function Homepg() {
   
@@ -74,10 +81,10 @@ function Homepg() {
         <div class="row mt-5">
         <div class="col-md-3 wow zoomInDown">
           <div class="card">
-           <img class="card-img-top img-fluid" alt="img1" src="images/models/16.jpg"/>
+           <img class="card-img-top img-fluid" alt="Img1" src={Pic1}/>
               <div class="card-body">
-                 <div class="card-heading">Product 1</div>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit neque, mollitia dolorem. </p>
+                 <div class="card-heading">Birthday Parties</div>
+                  <p class="card-text">"Celebrate your special day with us! Our expert event management team creates unforgettable birthday parties tailored just for you. From themes to coordination, we make it perfect." </p>
                   <a class="btn btn-pink text-light"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add To Cart</a>
               </div>
           </div>
@@ -85,10 +92,10 @@ function Homepg() {
           
           <div class="col-md-3 wow zoomInLeft">
           <div class="card">
-           <img class="card-img-top img-fluid" alt="img1" src="images/models/14.jpg"/>
+           <img class="card-img-top img-fluid" alt="img2" src={Pic2}/>
               <div class="card-body">
-                 <div class="card-heading">Product 1</div>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit neque, mollitia dolorem. </p>
+                 <div class="card-heading">Weddings</div>
+                  <p class="card-text">"Experience Your Dream Wedding: Our seasoned team specializes in personalized, unforgettable weddings. From elegant venues to intricate details, we ensure your day is truly magical. Trust us to bring your vision to life."  </p>
                   <a class="btn btn-pink text-light"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add To Cart</a>
               </div>
           </div>
@@ -97,10 +104,10 @@ function Homepg() {
           
           <div class="col-md-3 wow zoomInRight">
           <div class="card">
-           <img class="card-img-top img-fluid" alt="img1" src="images/b/B3.png"/>
+           <img class="card-img-top img-fluid" alt="img3" src={Pic3}/>
               <div class="card-body">
-                 <div class="card-heading">Product 1</div>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit neque, mollitia dolorem. </p>
+                 <div class="card-heading">Conferences</div>
+                  <p class="card-text">"Elevate Your Conferences: Our experts specialize in seamless, impactful events. From venue selection to innovative programming, we ensure a lasting impression. Experience elevated conferences with our expert event management team."  </p>
                   <a class="btn btn-pink text-light"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add To Cart</a>
               </div>
           </div>
@@ -109,10 +116,10 @@ function Homepg() {
           
           <div class="col-md-3 wow zoomInUp">
           <div class="card">
-           <img class="card-img-top img-fluid" alt="img1" src="images/models/13.jpg"/>
+           <img class="card-img-top img-fluid" alt="img4" src={Pic4}/>
               <div class="card-body">
-                 <div class="card-heading">Product 1</div>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit neque, mollitia dolorem. </p>
+                 <div class="card-heading">Outdoor Musical Shows</div>
+                  <p class="card-text">"Epic Outdoor Concerts: Experience music under the open sky with our expert team. Specializing in captivating outdoor shows, we curate scenic venues and top-notch sound for an immersive experience. Perfect for music lovers."</p>
                   <a class="btn btn-pink text-light">Add To Cart</a>
               </div>
           </div>
