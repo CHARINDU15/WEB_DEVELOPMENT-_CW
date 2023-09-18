@@ -1,0 +1,121 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  /* Navbar styles (if applicable) */
+  .navbar {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Carousel styles */
+  .carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Icon Text styles */
+  .icon-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Card styles */
+  .card {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-heading {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    font-size: 16px;
+  }
+  
+  .card-img-top {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Button styles */
+  .btn-pink {
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .btn-pink:hover {
+    background-color: #ff403e;
+  }
+  
+  /* New Arrivals section styles */
+  .bc {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .inner-text {
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  /* Event Buttons styles */
+  .btn-light {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .btn-light:hover {
+    background-color: #eee;
+  }
+  
+  /* Additional custom styles as needed */
+  
+  /* Footer styles (if applicable) */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  /* Any other component-specific styles you may have */
+  
+
+  
