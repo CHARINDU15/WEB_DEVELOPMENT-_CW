@@ -15,6 +15,24 @@ body,
 	bottom: auto;
 }
 
+
+.btn-login {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600; /* Button background color */
+    color: #fff; /* Button text color */
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+  }
+  
+  .btn-login:hover {
+    background-color: #ff3300; /* Hover background color */
+    transform: scale(1.05); /* Hover scaling effect */
+  }
+
 .heading{font-size: 60px; text-shadow: 2px 2px #ff0e3d;}
 .sub-heading{font-size: 30px; text-shadow: 2px 2px #ff0e3d;}
 
@@ -30,28 +48,6 @@ body,
   /* Adjust margin as needed to create spacing */
   margin-right: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .bg-gray{background-color: lightgray}
 .bg-pink{background-color: #041121; color: white;}
@@ -90,16 +86,3 @@ body,
     padding: 30px 0;
 }
 
-.footer-image {
-    display: block;
-    margin: 10px auto;
-}
-
-.footer-heading {
-    font-size: 20px; font-weight: bold;letter-spacing: 3px;color: #041121;
-}
-
-.footer-list {
-    list-style-type: none; padding-left: 0;
-}
-.footer-list > li a{color: aliceblue;text-decoration: none;}
