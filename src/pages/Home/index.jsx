@@ -11,7 +11,6 @@ import Pic4 from '../Home/Outdoor.jpg';
 
 
 
-
 function Homepg() {
   
   useEffect(() => {
