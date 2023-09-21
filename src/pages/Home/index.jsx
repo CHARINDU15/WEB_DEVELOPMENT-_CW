@@ -61,7 +61,7 @@ function Homepg() {
             <div className="icon-text"> <i className="fa fa-star" aria-hidden="true"></i> PREMIUM PRODUCTS</div>
           </div>
           <div className="col-md-4">
-            <div className="icon-text"> <i className="fa fa-truck" aria-hidden="true"></i> CUTOMIZE YOUR DREAM EVENT</div>
+            <div className="icon-text"> <i className="fa fa-truck" aria-hidden="true"></i> CUTOMIZE DREAM EVENT</div>
           </div>
         </div>
       </div>
@@ -74,22 +74,22 @@ function Homepg() {
         <div class="row mt-5">
         <div class="col-md-3 wow zoomInDown">
           <div class="card">
-           <img class="card-img-top img-fluid" alt="img1" src="images/models/16.jpg"/>
+           <img class="card-img-top img-fluid" alt="img1" src="Birthdays.jpg"/>
               <div class="card-body">
-                 <div class="card-heading">Product 1</div>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit neque, mollitia dolorem. </p>
-                  <a class="btn btn-pink text-light"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add To Cart</a>
+                 <div class="card-heading">Birthday Parties</div>
+                  
+                  <a class="btn btn-pink text-light"><i class="fa fa-cart-plus" aria-hidden="true"></i> View</a>
               </div>
           </div>
           </div>   
           
           <div class="col-md-3 wow zoomInLeft">
           <div class="card">
-           <img class="card-img-top img-fluid" alt="img1" src="images/models/14.jpg"/>
+           <img class="card-img-top img-fluid" alt="img1" src="Wedding.jpg"/>
               <div class="card-body">
-                 <div class="card-heading">Product 1</div>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit neque, mollitia dolorem. </p>
-                  <a class="btn btn-pink text-light"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add To Cart</a>
+                 <div class="card-heading">Weddings</div>
+                 
+                  <a class="btn btn-pink text-light"><i class="fa fa-cart-plus" aria-hidden="true"></i> View</a>
               </div>
           </div>
           </div> 
@@ -97,11 +97,11 @@ function Homepg() {
           
           <div class="col-md-3 wow zoomInRight">
           <div class="card">
-           <img class="card-img-top img-fluid" alt="img1" src="images/b/B3.png"/>
+           <img class="card-img-top img-fluid" alt="img1" src="Conferences.jpg"/>
               <div class="card-body">
-                 <div class="card-heading">Product 1</div>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit neque, mollitia dolorem. </p>
-                  <a class="btn btn-pink text-light"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add To Cart</a>
+                 <div class="card-heading">Conferences</div>
+                  
+                  <a class="btn btn-pink text-light"><i class="fa fa-cart-plus" aria-hidden="true"></i> View</a>
               </div>
           </div>
           </div> 
@@ -109,11 +109,11 @@ function Homepg() {
           
           <div class="col-md-3 wow zoomInUp">
           <div class="card">
-           <img class="card-img-top img-fluid" alt="img1" src="images/models/13.jpg"/>
+           <img class="card-img-top img-fluid" alt="img1" src="Musicals.jpg"/>
               <div class="card-body">
-                 <div class="card-heading">Product 1</div>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit neque, mollitia dolorem. </p>
-                  <a class="btn btn-pink text-light">Add To Cart</a>
+                 <div class="card-heading">Outdoor Musicals</div>
+                  
+                  <a class="btn btn-pink text-light">View</a>
               </div>
           </div>
           </div> 
@@ -144,9 +144,8 @@ function Homepg() {
         <div className="row mt-4 wow bounceIn">
           <div className="col-md-12">
             <div className="col-md-12">
-              <a className="btn btn-light">WEDDINGS</a>
-              <a className="btn btn-light ml-4">BIRTHDAY PARTIES</a>
-              <a className="btn btn-light ml-4">Corporate Events</a>
+              <a className="btn btn-light">Weddings</a>
+              <a className="btn btn-light ml-4">Birthday Parties</a>
               <a className="btn btn-light ml-4">Music Festivals</a>
               <a className="btn btn-light ml-4">Conferences </a>
               
@@ -156,34 +155,34 @@ function Homepg() {
 
         <div class="row mt-5">
           <div class="col-md-3 wow slideInDown">
-        <div class="card"> <img class="card-img-top img-fluid" alt="img1" src="images/models/1.jpg"/>
+        <div class="card"> <img class="card-img-top img-fluid" alt="img1" src="Platinum Cake.jpg"/>
               <div class="card-body">
-            <div class="card-heading">Product 1</div>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit neque, mollitia dolorem. </p>
+            <div class="card-heading">Vanila Cake</div>
+            <p class="card-text">LKR.12,500.00 </p>
             <a class="btn btn-pink text-light"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add To Cart</a> </div>
             </div>
       </div>
           <div class="col-md-3 wow slideInLeft">
-        <div class="card"> <img class="card-img-top img-fluid" alt="img1" src="images/models/2.jpg"/>
+        <div class="card"> <img class="card-img-top img-fluid" alt="img1" src="Gold Cake.jpg"/>
               <div class="card-body">
-            <div class="card-heading">Product 1</div>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit neque, mollitia dolorem. </p>
+            <div class="card-heading">Chocolate Cake</div>
+            <p class="card-text">LKR.7,500.00</p>
             <a class="btn btn-pink text-light"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add To Cart</a> </div>
             </div>
       </div>
           <div class="col-md-3 wow slideInRight">
-        <div class="card"> <img class="card-img-top img-fluid" alt="img1" src="images/models/3.jpg"/>
+        <div class="card"> <img class="card-img-top img-fluid" alt="img1" src="Silver Cake.jpg"/>
               <div class="card-body">
-            <div class="card-heading">Product 1</div>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit neque, mollitia dolorem. </p>
+            <div class="card-heading">Strawberry Cake</div>
+            <p class="card-text">LKR.4000.00 </p>
             <a class="btn btn-pink text-light"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add To Cart</a> </div>
             </div>
       </div>
           <div class="col-md-3 wow slideInUp">
-        <div class="card"> <img class="card-img-top img-fluid" alt="img1" src="images/models/4.jpg"/>
+        <div class="card"> <img class="card-img-top img-fluid" alt="img1" src="Special Cake.jpg"/>
               <div class="card-body">
-            <div class="card-heading">Product 1</div>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit neque, mollitia dolorem. </p>
+            <div class="card-heading">Muffins</div>
+            <p class="card-text">LKR.250.00  </p>
             <a class="btn btn-pink text-light">Add To Cart</a> </div>
             </div>
       </div>
@@ -193,35 +192,32 @@ function Homepg() {
           
     <div class="row mt-5">
           <div class="col-md-3 wow flipInX">
-        <div class="card"> <img class="card-img-top img-fluid" alt="img1" src="images/models/5.jpg"/>
+        <div class="card"> <img class="card-img-top img-fluid" alt="img1" src="Venue.jpg"/>
               <div class="card-body">
-            <div class="card-heading">Product 1</div>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit neque, mollitia dolorem. </p>
-            <a class="btn btn-pink text-light"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add To Cart</a> </div>
+            
+           
+            <a class="btn btn-pink text-light"><i class="fa fa-cart-plus" aria-hidden="true"></i> View Items</a> </div>
             </div>
       </div>
           <div class="col-md-3 wow flipInY">
-        <div class="card"> <img class="card-img-top img-fluid" alt="img1" src="images/models/6.jpg"/>
+        <div class="card"> <img class="card-img-top img-fluid" alt="img1" src="Music.jpg"/>
               <div class="card-body">
-            <div class="card-heading">Product 1</div>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit neque, mollitia dolorem. </p>
-            <a class="btn btn-pink text-light"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add To Cart</a> </div>
+            
+            <a class="btn btn-pink text-light"><i class="fa fa-cart-plus" aria-hidden="true"></i> View Items</a> </div>
             </div>
       </div>
           <div class="col-md-3 wow flipInX">
-        <div class="card"> <img class="card-img-top img-fluid" alt="img1" src="images/models/7.jpg"/>
+        <div class="card"> <img class="card-img-top img-fluid" alt="img1" src="Decorations.jpg"/>
               <div class="card-body">
-            <div class="card-heading">Product 1</div>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit neque, mollitia dolorem. </p>
-            <a class="btn btn-pink text-light"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add To Cart</a> </div>
+           
+            <a class="btn btn-pink text-light"><i class="fa fa-cart-plus" aria-hidden="true"></i> View Items</a> </div>
             </div>
       </div>
           <div class="col-md-3 wow flipInY">
-        <div class="card"> <img class="card-img-top img-fluid" alt="img1" src="images/models/8.jpg"/>
+        <div class="card"> <img class="card-img-top img-fluid" alt="img1" src="Foods.jpg"/>
               <div class="card-body">
-            <div class="card-heading">Product 1</div>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit neque, mollitia dolorem. </p>
-            <a class="btn btn-pink text-light">Add To Cart</a> </div>
+            
+            <a class="btn btn-pink text-light">View Items</a> </div>
             </div>
       </div>
         </div>

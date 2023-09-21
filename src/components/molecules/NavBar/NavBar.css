@@ -79,7 +79,7 @@
   
   /* Active Nav Link Styles */
   .navbar.active .navbar-nav .nav-link {
-    color:  #00b3ff;; /* Active state nav link color */
+    color:  #044c6b;; /* Active state nav link color */
   }
   
   /* Active Dropdown Styles */
@@ -89,6 +89,6 @@
   
   /* Active Dropdown Item Styles */
   .navbar.active .dropdown-item:hover {
-    background-color: #00b3ff; /* Active state dropdown item hover background color */
+    background-color: #044c6b; /* Active state dropdown item hover background color */
   }
   

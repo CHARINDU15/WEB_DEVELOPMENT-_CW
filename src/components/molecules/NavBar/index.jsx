@@ -13,7 +13,7 @@ const NavBar = () => {
       <nav className={`navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-body fixed-top ${isOpen ? 'active' : ''}`}>
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            <img src="./Untitled-1.jpg" alt="Logo" width="50" height="40" />
+            <img src="295ca237-dae0-4ff6-a64b-de49b62c5a08.png" alt="Logo" width="50" height="40" />
           </a>
           <button
             className={`navbar-toggler ${isOpen ? 'active' : ''}`}
@@ -46,7 +46,7 @@ const NavBar = () => {
                 </ul>
               </li>
               <li className="nav-item">
-                <a className="nav-link disabled" aria-disabled="true">Disabled</a>
+                <a className="nav-link disabled" aria-disabled="true">Login</a>
               </li>
             </ul>
             <form className="d-flex" role="search">
