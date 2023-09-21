@@ -1,0 +1,199 @@
+/* Modal backdrop with a semi-transparent black background */
+.modal-backdrop {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+/* Style for the modal content */
+.modal-content {
+  background-color: #5455597b;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 0.3s ease; /* Fade-in animation */
+}
+/* Add this to your CSS */
+/* Style for the modal logo */
+.modal-logo {
+  width: 50px; /* Adjust the width to fit your logo */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px; /* Add some spacing between the logo and title */
+  opacity: 0; /* Initially set opacity to 0 for the animation */
+  animation: fadeInLogo 0.5s ease forwards; /* Fade-in animation */
+}
+.modacopy {
+  text-align:center;
+
+}
+/* Keyframes for the fade-in animation */
+@keyframes fadeInLogo {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Style for the modal header */
+.modal-header {
+  background-color: #1c1b1b;
+  color: #fff;
+  border-bottom: none;
+  text-align:center;
+  padding: 20px 0; /* Added padding */
+  position: relative;
+}
+
+/* Style for the modal title with a subtle animation */
+.modal-title {
+  font-size: 1.25rem;
+  text-align: center;
+  animation: bounceIn 0.5s ease; /* Bounce-in animation */
+}
+
+/* Style for the close button in the modal */
+.close-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #fff;
+  transition: color 0.3s ease; /* Color change animation on hover */
+}
+
+.close-icon:hover {
+  color: #e74c3c; /* Change color on hover */
+}
+
+/* Style for form elements within the modal */
+.input-box {
+  position: relative;
+  margin-bottom: 20px;
+  animation: slideInUp 0.5s ease; /* Slide-in animation */
+}
+
+.input-box input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.input-box label {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #888;
+  pointer-events: none;
+  transition: 0.3s ease-out;
+}
+
+/* Style for the remember and forgot password section */
+.remember-forget {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  animation: fadeIn 0.5s ease; /* Fade-in animation */
+}
+
+/* Style for the buttons within the modal with hover animation */
+.btn {
+  background-color: #343a40;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  animation: scaleIn 0.5s ease; /* Scale-in animation */
+}
+
+.btn:hover {
+  background-color: #292f35;
+  transform: scale(1.05); /* Enlarge on hover */
+}
+
+/* Style for the "Don't have an account?" and "Already have an account?" links */
+.login-register p {
+  text-align: center;
+  margin-top: 10px;
+  animation: slideInDown 0.5s ease; /* Slide-in animation */
+}
+
+.login-register a {
+  color: #343a40;
+  font-weight: bold;
+  transition: color 0.3s ease; /* Color change animation on hover */
+}
+
+.login-register a:hover {
+  text-decoration: underline;
+  color: #e67e22; /* Change color on hover */
+}
+
+.modal-footer{
+  background-color: #343a40;
+}
+/* Keyframe animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes bounceIn {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInUp {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInDown {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Responsive Media Queries */
+@media (max-width: 768px) {
+  /* Adjust styles for screens smaller than 768px width */
+  .modal-content {
+    max-width: 90%; /* Reduce the width of the modal */
+  }
+}
