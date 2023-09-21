@@ -1,9 +1,12 @@
 import React, { useEffect } from "react";
 import WOW from 'wowjs'; // Import WOW from wowjs
+
 import '../Home/animate.css';
 import '../Home/bootstrap-4.3.1.css';
 import '../Home/style.css';
 import $ from 'jquery';
+import fun1 from '../Home/pexels-kaique-rocha-518389.jpg';
+import fun2 from '../Home/pxfuel (1).jpg';
 
 function Homepg() {
   
@@ -25,34 +28,11 @@ function Homepg() {
   
   return (
     <div>
-      <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
-        <ol className="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div className="carousel-inner">
-          <div className="carousel-item active">
-            <img src="images/slider/S1.png" className="d-block w-100" alt="..." />
-            <div className="carousel-caption d-none d-md-block">
-              <p className="heading animated bounceInLeft">BOOTSTRAP 4 ANIMATED CAROUSEL</p>
-              <p className="sub-heading animated flipInX delay-1s">CODE LINK GIVEN IN VIDEO DESCRIPTION</p>
-              <a className="btn btn-lg btn-danger mt-5 delay-2s animated bounce delay-2s infinite ">LIKE & SHARE</a>
-            </div>
-          </div>
-          
-        </div>
-        <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span className="sr-only">Previous</span>
-        </a>
-        <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span className="carousel-control-next-icon" aria-hidden="true"></span>
-          <span className="sr-only">Next</span>
-        </a>
-      </div>
+      
+    
+      
 
-      <div className="container-fluid">
+      <div  className="container-fluid">
         <div className="row bg-gray wow slideInDown">
           <div className="col-md-4">
             <div className="icon-text"> <i className="fa fa-money" aria-hidden="true"></i> FAST SECURE PAYMENTS</div>
