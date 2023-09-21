@@ -23,13 +23,13 @@ const Footer = () =>{
     </div>
     <div className="social-media">
     <h3 id="con">Contact-Us</h3>
-    <a class="Footer-brand" href="#"><img id="im" src= {facebook} alt="Facebook"width="30" height="15"/></a>
-    <a class="Footer-brand" href="#"><img id="im" src= {instergram} alt="Instagram"width="30" height="15"/></a>
-    <a class="Footer-brand" href="#"><img id="im" src= {whatsapp} alt="Whatsapp"width="30" height="15"/></a>
+    <a class="Footer-brand" href="#"><img src="Facebook.png" alt="Facebook"width="40" height="40"/></a>
+    <a class="Footer-brand" href="#"><img src="Instagram.png" alt="Instagram"width="40" height="40"/></a>
+    <a class="Footer-brand" href="#"><img src="Whatsapp.png" alt="Whatsapp"width="40" height="40"/></a>
   </div>
 
   <div className="copyright">
-    <p>&copy; © 2023 EVENTO All-in-One Event Management System. All Rights Reserved.</p>
+    <p>&copy; 2023 EVENTO All-in-One Event Management System. All Rights Reserved.</p>
 
   </div>
 
@@ -40,28 +40,6 @@ const Footer = () =>{
   <div className="navigation">
     <h3>Navigation Links</h3>
     <p>Home | About Us | Services | Contact Us | FAQ | Blog</p>
-  </div>
-
-  <div className="newsletter">
-    <h3>Newsletter Signup</h3>
-    <input id="input1" type="email" placeholder="Your Email" />
-    <button>Subscribe</button>
-  </div>
-
-  <div className="testimonials">
-    <h3>Testimonials</h3>
-    <p>"The event organized by EMS was exceptional! - John Doe"</p>
-    <p>"I had a great time at the last event. Looking forward to the next one! - Jane Smith"</p>
-  </div>
-
-  <div className="quick-links">
-    <h3>Quick Links</h3>
-    <p>FAQs | Event Calendar | Blog | Careers</p>
-  </div>
-
-  <div className="sitemap">
-    <h3>Sitemap</h3>
-    <p><a id="privacy" href="/sitemap">Sitemap</a></p>
   </div>
 
   <div className="accessibility">

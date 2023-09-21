@@ -21,7 +21,7 @@ const NavBar = ({ darkMode, toggleTheme }) => {
         
       
           <a className="navbar-brand" href="#">
-            <img src="./Untitled-1.jpg" alt="Logo" width="50" height="40" />
+            <img src="295ca237-dae0-4ff6-a64b-de49b62c5a08.png" alt="Logo" width="50" height="40" />
           </a>
           <button
             className={`navbar-toggler ${isOpen ? 'active' : ''}`}
