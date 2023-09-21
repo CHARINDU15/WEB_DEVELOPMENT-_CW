@@ -1,63 +1,35 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import Navitemes from "../../atoms";
 
+//import 'C:\Users\USER\Documents\WEB  DEVELOPMENT\JAYQUARY\Reactweb_Projects\boostwrap01\src\components\molecules\NavBar\Navbar.css';
 
+const NavBar=()=>{
+    return(
 
-const NavBar = ({ darkMode, toggleTheme }) => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggleNav = () => {
-    setIsOpen(!isOpen);
-  };
-
-
-  return (
-    <>
-    
-      <nav className={`navbar navbar-expand-lg navbar-dark bg-black border-bottom border-body fixed-top ${isOpen ? 'active' : ''}`}>
-        <div className="container-fluid">
-
+        <><nav class="navbar bg-dark border-bottom border-body" fixed-top data-bs-theme="dark">
         
-        
-      
-          <a className="navbar-brand" href="#">
-            <img src="./Untitled-1.jpg" alt="Logo" width="50" height="40" />
-          </a>
-          <button
-            className={`navbar-toggler ${isOpen ? 'active' : ''}`}
-            type="button"
-            onClick={toggleNav}
-          >
-            <span className="navbar-toggler-icon"></span>
+
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src= "./Untitled-1.jpg" alt="Logo"width="50" height="40"/></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
           </button>
-          <div className={`collapse navbar-collapse ${isOpen ? 'show' : ''}`} id="navbarSupportedContent">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="nav-item">
-                <a className="nav-link" href="/">
-                  HOME
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <Navitemes href = {'/'} name ={'Home'}/>
+            <Navitemes href = {'/about'} name= {'About'}/>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
                 </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="/about">
-                  ABOUT
-                </a>
-              </li>
-              <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle" href="/Events" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  EVENTS
-                </a>
-                <ul className="dropdown-menu">
-                  <li><a className="dropdown-item" href="/weddings">WEDDINGS</a></li>
-                  <li><hr className="dropdown-divider" /></li>
-                  <li><a className="dropdown-item" href="/Birthdays">BIRTHDAY PARTIES</a></li>
-                  <li><hr className="dropdown-divider" /></li>
-                  <li><a className="dropdown-item" href="/cooparte">CO-OPARATE EVENTS</a></li>
-                  <li><hr className="dropdown-divider" /></li>
-                  <li><a className="dropdown-item" href="/Conferences">CONFERENCES</a></li>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"/></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" aria-disabled="false" herf = '/VENDORS'> VENDORS</a>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
               </li>
             </ul>
             <form className="d-flex" role="search">
@@ -71,11 +43,9 @@ const NavBar = ({ darkMode, toggleTheme }) => {
             </div>
 
         </div>
+      </nav></>
 
-        
-      </nav>
-    </>
-  );
+    );
 }
 
 export default NavBar;
